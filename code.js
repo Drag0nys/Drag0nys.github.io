@@ -9,7 +9,7 @@ function inscriptionPress(){
     
     var liste = [prenom_, horaire_, chapitre_];
     var final = liste.join();
-    var document.getElementById("rep").innerHTML = final;
+    document.getElementById("rep").innerHTML = final;
     
     console.log(liste)
     
