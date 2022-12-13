@@ -8,7 +8,7 @@ function inscriptionPress(){
     var chapitre_ = chapitre.value;
     
     var liste = [prenom_, horaire_, chapitre_];
-    var final = liste.join(" and ");
+    var final = liste.join();
     var document.getElementById("rep").innerHTML = final;
     
     console.log(liste)
