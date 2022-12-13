@@ -13,7 +13,10 @@ function inscriptionPress(){
     var prenom = document.getElementsById(prenom);
     var horaire = document.getElementsById(horaire);
     var chapitre = document.getElementsById(chapitre);
+    var rep = document.getElementsById(rep);
     
     let liste = [prenom, horaire, chapitre]
+    var reps = liste
+    rep.value = reps
     return liste
 }
