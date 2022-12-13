@@ -9,3 +9,11 @@ function afficherReponse(num){
     var aAfficher = document.getElementById(num);
     aAfficher.style.display = 'block';
 }
+function inscriptionPress(){
+    var prenom = document.getElementsById(prenom);
+    var horaire = document.getElementsById(horaire);
+    var chapitre = document.getElementsById(chapitre);
+    
+    let liste = [prenom, horaire, chapitre]
+    return liste
+}
