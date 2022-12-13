@@ -7,7 +7,7 @@ function inscriptionPress(){
     var prenom_ = prenom.value;
     var horaire_ = horaire.value;
     var chapitre_ = chapitre.value;
-    var rep_ = rep.value;
+  
     
     let liste = [prenom_, horaire_, chapitre_]
     document.getElementById("rep").innerHTML = liste.join();
