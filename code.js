@@ -13,7 +13,9 @@ function inscriptionPress(){
     document.getElementById("rep").innerHTML = final;
     document.getElementById("prenom").innerHTML = " ";
     document.getElementById("horaire").innerHTML = " ";
-    document.getElementById("chapitre").innerHTML = " ";
+    prenom.value = " ";
+    horaire.value = " ";
+    chapitre.value = " ";
     
 }
 
