@@ -11,7 +11,7 @@ function inscriptionPress(){
     
     let liste = [prenom_, horaire_, chapitre_]
     var reps = liste
-    var rep.value = reps
+    rep_.value = reps
     console.log(liste)
     
 }
