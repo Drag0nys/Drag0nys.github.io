@@ -10,10 +10,10 @@ function afficherReponse(num){
     aAfficher.style.display = 'block';
 }
 function inscriptionPress(){
-    var prenom = document.getElementById(prenom);
-    var horaire = document.getElementById(horaire);
-    var chapitre = document.getElementById(chapitre);
-    var rep = document.getElementById(rep);
+    var prenom = document.getElementById("prenom");
+    var horaire = document.getElementById("horaire");
+    var chapitre = document.getElementById("chapitre");
+    var rep = document.getElementById("rep");
     
     let liste = [prenom, horaire, chapitre]
     var reps = liste
