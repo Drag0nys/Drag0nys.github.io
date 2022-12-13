@@ -4,7 +4,12 @@ body{
 	margin-right: 70px;
 	margin-left: 70px;
 	font-family: Arial;
-
+	
+.wrapper {
+  display: grid;
+  grid-template-columns: 200px 200px 200px;
+}
+	
 }
 
 h1{
