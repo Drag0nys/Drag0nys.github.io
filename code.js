@@ -15,8 +15,13 @@ function inscriptionPress(){
     var chapitre = document.getElementById("chapitre");
     var rep = document.getElementById("rep");
     
-    let liste = [prenom, horaire, chapitre]
+    var prenom_ = prenom.value;
+    var horaire_ = horaire.value;
+    var chapitre_ = chapitre.value;
+    var rep_ = rep.value;
+    
+    let liste = [prenom_, horaire_, chapitre_]
     var reps = liste
-    rep.value = reps
-    return liste
+    var rep.value = reps
+    
 }
