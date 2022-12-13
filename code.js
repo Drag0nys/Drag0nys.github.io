@@ -9,9 +9,11 @@ function inscriptionPress(){
     
     var liste = [prenom_, horaire_, chapitre_];
     var final = liste.join(" / ");
-    document.getElementById("rep").innerHTML = final;
     
-    console.log(liste)
+    document.getElementById("rep").innerHTML = final;
+    document.getElementById("prenom").innerHTML = " ";
+    document.getElementById("horaire").innerHTML = " ";
+    document.getElementById("chapitre").innerHTML = " ";
     
 }
 
