@@ -13,8 +13,10 @@ function inscriptionPress(){
     var liste = [, prenom_, horaire_, chapitre_];
     var final = liste.join(" / ");
     let newP = document.createElement('p');
+    let b = document.body;
     
     newP.textContent = final;
+    b.append(newP);
     prenom.value = " ";
     horaire.value = " ";
     chapitre.value = " ";
