@@ -20,7 +20,7 @@ function inscriptionPress(){
     prenom.value = " ";
     horaire.value = " ";
     chapitre.value = " ";
-    
+   
     
 }
 
