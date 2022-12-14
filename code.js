@@ -9,9 +9,9 @@ function inscriptionPress(){
     var chapitre_ = chapitre.value;
     var donner_ = donner.value;
     
-    var _donner_ = [donner_];
-    var liste = [prenom_, horaire_, chapitre_];
-    var liste_ = _donner_.concat(liste);
+    
+    var liste = [donner_, prenom_, horaire_, chapitre_];
+   
     var final = liste_.join(" / ");
     
     document.getElementById("donner").innerHTML = final;
