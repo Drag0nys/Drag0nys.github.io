@@ -9,14 +9,14 @@ function inscriptionPress(){
     var chapitre_ = chapitre.value;
     var donner_ = donner.value;
     
-    
+    let p1 = document.getElementById('p1');
     var liste = [prenom_, horaire_, chapitre_];
     var final = liste.join(" / ");
     let newP = document.createElement('p');
     let b = document.body;
     
     newP.textContent = final;
-    b.append(newP);
+    b.insertBefore(newP,p1);
     prenom.value = " ";
     horaire.value = " ";
     chapitre.value = " ";
