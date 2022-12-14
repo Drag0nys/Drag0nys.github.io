@@ -12,7 +12,7 @@ function inscriptionPress(){
     var liste = [prenom_, horaire_, chapitre_];
     var final = liste.join(" / ");
     
-    document.getElementById("rep").innerHTML = donner_ + final;
+    document.getElementById("donner").innerHTML = donner_ + final;
     document.getElementById("prenom").innerHTML = " ";
     document.getElementById("horaire").innerHTML = " ";
     prenom.value = " ";
