@@ -7,6 +7,16 @@ body{
 	
 }
 
+.dispo{
+	background-color: #ccc
+
+}
+
+.pasdispo{
+	background-color: #fff
+
+}
+
 table {
 	width: 100% ;
 	text-align: center ;	
