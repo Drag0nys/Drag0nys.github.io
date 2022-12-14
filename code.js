@@ -9,10 +9,12 @@ function inscriptionPress(){
     var chapitre_ = chapitre.value;
     var donner_ = donner.value;
     
+    var _donner_ = [donner_];
     var liste = [prenom_, horaire_, chapitre_];
+    var liste = _donner_.concat(liste);
     var final = liste.join(" / ");
     
-    document.getElementById("donner").innerHTML = donner_ + final;
+    document.getElementById("donner").innerHTML = final;
     document.getElementById("prenom").innerHTML = " ";
     document.getElementById("horaire").innerHTML = " ";
     prenom.value = " ";
