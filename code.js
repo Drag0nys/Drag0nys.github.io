@@ -11,8 +11,8 @@ function inscriptionPress(){
     
     var _donner_ = [donner_];
     var liste = [prenom_, horaire_, chapitre_];
-    var liste = _donner_.concat(liste);
-    var final = liste.join(" / ");
+    var liste_ = _donner_.concat(liste);
+    var final = liste_.join(" / ");
     
     document.getElementById("donner").innerHTML = final;
     document.getElementById("prenom").innerHTML = " ";
