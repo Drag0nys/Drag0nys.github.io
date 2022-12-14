@@ -10,7 +10,7 @@ function inscriptionPress(){
     var donner_ = donner.value;
     
     
-    var liste = [, prenom_, horaire_, chapitre_];
+    var liste = [prenom_, horaire_, chapitre_];
     var final = liste.join(" / ");
     let newP = document.createElement('p');
     let b = document.body;
