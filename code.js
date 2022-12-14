@@ -10,13 +10,11 @@ function inscriptionPress(){
     var donner_ = donner.value;
     
     
-    var liste = [donner_, prenom_, horaire_, chapitre_];
-   
+    var liste = [, prenom_, horaire_, chapitre_];
     var final = liste.join(" / ");
+    let newP = document.createElement('p');
     
-    document.getElementById("donner").innerHTML = final;
-    document.getElementById("prenom").innerHTML = " ";
-    document.getElementById("horaire").innerHTML = " ";
+    newP.textContent = final;
     prenom.value = " ";
     horaire.value = " ";
     chapitre.value = " ";
