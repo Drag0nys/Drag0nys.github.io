@@ -19,5 +19,6 @@ function inscriptionPress(){
     horaire.value = " ";
     chapitre.value = " ";
     
+    
 }
 
