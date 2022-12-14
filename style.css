@@ -7,9 +7,11 @@ body{
 	
 }
 
+table {
+	width: 100% ;
+	text-align: center ;	
+
 }
-
-
 header{
 	background-color: #CDCDCD;
 	text-align: center;
