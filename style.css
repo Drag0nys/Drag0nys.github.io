@@ -7,14 +7,14 @@ body{
 	
 }
 
-.dispo{
-	background-color: #ccc
+th {
+	background: #222 ;
+	color: #ccc;	
 
 }
-
-.pasdispo{
-	background-color: #fff
-
+td{
+	background: #333 ;
+	color: #ccc;
 }
 
 table {
